@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import CV from "@/components/cv";
+import CV from "/components/cv";
 
 const AboutPage = ({ setLinks, setSection }) => {
 	useEffect(() => {

@@ -1,10 +1,10 @@
 import { Inter } from "@next/font/google";
 import { useEffect, useState, useRef } from "react";
-import About from "@/components/about";
+import About from "/components/about";
 import Project from "/components/projects";
 import { motion } from "framer-motion";
-import Landing from "@/components/landing";
-import AboutHover from "@/components/aboutHover";
+import Landing from "/components/landing";
+import AboutHover from "/components/aboutHover";
 import Contact from "/components/contact";
 
 const inter = Inter({ subsets: ["latin"] });

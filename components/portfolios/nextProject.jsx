@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import ProjectCard from "@/components/projectCard";
+import ProjectCard from "/components/projectCard";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { FiArrowUpRight } from "react-icons/fi";

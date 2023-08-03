@@ -1,9 +1,9 @@
-import Cursor from "@/components/cursor";
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
+import Cursor from "/components/cursor";
+import Footer from "/components/footer";
+import Navbar from "/components/navbar";
 import { AnimatePresence } from "framer-motion";
 
-import "@/styles/globals.css";
+import "/styles/globals.css";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 

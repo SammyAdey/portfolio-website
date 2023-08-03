@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import InfoSection from "/components/portfolios/info";
-import { Hero, TwoColumn, OneColumn, Fullscreen } from "@/components/portfolios/imgSections";
+import { Hero, TwoColumn, OneColumn, Fullscreen } from "/components/portfolios/imgSections";
 import NextProject from "/components/portfolios/nextProject";
 
 const MlPercussions = ({ setLinks, setSection }) => {
