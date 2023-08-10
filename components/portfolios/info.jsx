@@ -51,6 +51,7 @@ const InfoSection = ({ company, role, completed, url }) => {
 					</tr>
 				</tbody>
 			</table>
+			{/* <div className='w-[400px] h-[300px] bg-gradient-to-r from-orange-500 to-rose-700'></div> */}
 		</div>
 	);
 };

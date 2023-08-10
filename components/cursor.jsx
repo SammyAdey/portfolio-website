@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FiArrowUpRight } from "react-icons/fi";
 import { useRouter } from "next/router";
 
-const Cursor = ({ links }) => {
+const Cursor = ({ links, mouseHoverColor, mouseColor }) => {
 	const [mousePosition, setMousePosition] = useState({
 		x: 0,
 		y: 0,
@@ -107,10 +107,7 @@ const Cursor = ({ links }) => {
 			</motion.div>
 			<motion.div
 				id='bg-circle'
-				className={
-					"bg-white fixed w-[300px] h-[300px] top-0 left-0 z-[1] blr-[200px] pointer-events-none rounded-[50%] " +
-					(mouseHover ? "bg-gradient-to-r from-green-500 via-blue-500 to-purple-600" : "bg-gradient-to-r from-green-600 via-blue-600 to-purple-600")
-				}
+				className={"fixed w-[300px] h-[300px] top-0 left-0 z-[2] pointer-events-none rounded-[50%] " + (mouseHover ? mouseHoverColor : mouseColor)}
 				initial={{ rotate: 0, skew: 1 }}
 				animate={{ rotate: 360, skew: 15 }}
 				transition={{ ease: "easeOut", duration: 20, repeat: Infinity }}

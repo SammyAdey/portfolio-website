@@ -21,21 +21,21 @@ const Contact = ({ contactRef }) => {
 		},
 	};
 	return (
-		<div ref={contactRef} className='flex flex-col  w-screen h-screen relative shrink-0 justify-center items-center'>
+		<div ref={contactRef} className='flex flex-col w-screen h-screen relative shrink-0 justify-center items-center'>
 			<div className='w-[70vw]'>
-				<div className='flex justify-between items-center'>
+				<div className='flex flex-col lg:flex-row lg:justify-between lg:items-center'>
 					<div className='w-[300px]'>
 						<div>Avaliable for work</div>
 					</div>
 					<div className='w-[500px]'>
-						<h1 className='font-["helvetica-extended"] text-[48px] leading-[40px]'>samuel@deyemi.dev</h1>
+						<h1 className='font-["helvetica-extended"] text-[30px] lg:text-[48px] leading-[40px]'>samuel@deyemi.dev</h1>
 					</div>
 				</div>
-				<div className='flex justify-between mt-[80px] items-start'>
+				<div className='flex flex-col lg:flex-row justify-between mt-[80px] items-start gap-6 lg:gap-0'>
 					<div className='w-[300px]'>
-						<div className='font-["helvetica-extended"] text-[24px] w-[300px]'>Mainstreet, kangaroo point Brisbane, 4169.</div>
+						<div className='font-["helvetica-extended"] text-[20px] lg:text-[24px] w-[300px]'>Mainstreet, kangaroo point Brisbane, 4169.</div>
 					</div>
-					<div className='w-[500px] flex flex-col gap-3'>
+					<div className='w-[500px] flex flex-col gap-0 lg:gap-3'>
 						{/* ------------------------------------------------------- */}
 						<div
 							id='link'
@@ -44,7 +44,7 @@ const Contact = ({ contactRef }) => {
 							className='flex items-center font-["helvetica-extended"] cursor-pointer gap-1 w-[170px] justify-between'
 						>
 							<div className='h-[40px]'>
-								<h1 className='text-[24px] font-[400] '>Instagram</h1>
+								<h1 className='text-[20px] lg:text-[24px] font-[400] '>Instagram</h1>
 							</div>
 							<motion.div variants={hover === "instagram" ? hoverVariant : variant} animate='default' transition={{ ease: "easeOut", duration: 0.3 }}>
 								<FiArrowUpRight size={22} className='mt-[-5px]' />
@@ -59,7 +59,7 @@ const Contact = ({ contactRef }) => {
 							className='flex items-center font-["helvetica-extended"] cursor-pointer gap-1 w-[170px] justify-between'
 						>
 							<div className='h-[40px]'>
-								<h1 className='text-[24px] font-[400] '>Twitter</h1>
+								<h1 className='text-[20px] lg:text-[24px] font-[400] '>Twitter</h1>
 							</div>
 							<motion.div variants={hover === "twitter" ? hoverVariant : variant} animate='default' transition={{ ease: "easeOut", duration: 0.3 }}>
 								<FiArrowUpRight size={22} className='mt-[-5px]' />
@@ -73,7 +73,7 @@ const Contact = ({ contactRef }) => {
 							className='flex items-center font-["helvetica-extended"] cursor-pointer gap-1 w-[170px] justify-between'
 						>
 							<div className='h-[40px]'>
-								<h1 className='text-[24px] font-[400] '>Facebook</h1>
+								<h1 className='text-[20px] lg:text-[24px] font-[400] '>Facebook</h1>
 							</div>
 							<motion.div variants={hover === "facebook" ? hoverVariant : variant} animate='default' transition={{ ease: "easeOut", duration: 0.3 }}>
 								<FiArrowUpRight size={22} className='mt-[-5px]' />
@@ -88,7 +88,7 @@ const Contact = ({ contactRef }) => {
 							className='flex items-center font-["helvetica-extended"] cursor-pointer gap-1 w-[170px] justify-between'
 						>
 							<div className='h-[40px]'>
-								<h1 className='text-[24px] font-[400] '>Linkedin</h1>
+								<h1 className='text-[20px] lg:text-[24px] font-[400] '>Linkedin</h1>
 							</div>
 							<motion.div variants={hover === "linkedin" ? hoverVariant : variant} animate='default' transition={{ ease: "easeOut", duration: 0.3 }}>
 								<FiArrowUpRight size={22} className='mt-[-5px]' />

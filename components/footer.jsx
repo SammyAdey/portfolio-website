@@ -6,8 +6,13 @@ const Footer = ({ section, isProjects }) => {
 	const [hover, setHover] = useState(false);
 
 	return (
-		<div className='flex w-full h-[60px] justify-between items-center fixed bottom-0  px-[50px] pb-[50px] z-[9000]'>
-			<div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} id='link' className='h-[20px] overflow-hidden hover:text-white'>
+		<div className='flex w-full h-[60px] justify-between items-center fixed bottom-0  px-[25px] lg:px-[50px] pb-[10px] lg:pb-[50px] z-[9000]'>
+			<div
+				onMouseEnter={() => setHover(true)}
+				onMouseLeave={() => setHover(false)}
+				id='link'
+				className='h-[20px] hidden lg:block overflow-hidden hover:text-white'
+			>
 				<div
 					className={
 						"text-[#8a8a8a] cursor-pointer gap-1 hover:text-white h-[30px] overflow-hidden duration-700 ease-out " +
@@ -28,7 +33,7 @@ const Footer = ({ section, isProjects }) => {
 						}
 					>
 						<div className='h-[30px] overflow-hidden'>
-							<h1 className='text-[18px] font-[400] '>Available for work</h1>
+							<h1 className='text-[12px] lg:text-[18px] font-[400] '>Available for work</h1>
 						</div>
 						<FiArrowUpRight size={20} className='mt-[-2px]' />
 					</div>
@@ -103,7 +108,7 @@ const Footer = ({ section, isProjects }) => {
 					<FiArrowUpRight size={18} className='mt-[-5px]' />
 				</div>
 			</div>
-			<h1 className={"text-[14px] text-[#8a8a8a] font-[300]" + (isProjects ? " text-black" : "")}>© Samuel Adeyemi 2023</h1>
+			<h1 className={"text-[12px] lg:text-[14px] text-[#8a8a8a] font-[300]" + (isProjects ? " text-black" : "")}>© Samuel Adeyemi 2023</h1>
 		</div>
 	);
 };

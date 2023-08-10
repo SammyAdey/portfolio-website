@@ -3,7 +3,7 @@ import InfoSection from "/components/portfolios/info";
 import { Hero, TwoColumn, OneColumn, Fullscreen } from "/components/portfolios/imgSections";
 import NextProject from "/components/portfolios/nextProject";
 
-const MlPercussions = ({ setLinks, setSection, setIsProjects }) => {
+const MlPercussions = ({ setLinks, setSection }) => {
 	const menuRef = useRef(null);
 
 	useEffect(() => {
@@ -17,7 +17,7 @@ const MlPercussions = ({ setLinks, setSection, setIsProjects }) => {
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[10rem] items-center '>
 			<h1 className='font-["shallota"] leading-[40px] text-[120px] text-black font-[500] pt-20 pb-20'>Rivet App</h1>
-			<InfoSection company='Rivet Co' role='UI/UX' completed='On Going' url='www.rivetapp.com' />
+			<InfoSection company='Rivet Co' role='UI/UX' completed='On Going' url='rivet.app' />
 			<Hero img='/portfolio/rivet/hero.jpg' />
 
 			<hr className='mt-[250px]' />

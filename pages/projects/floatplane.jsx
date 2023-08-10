@@ -48,7 +48,7 @@ const AboutPage = ({ setLinks, setSection, setIsProjects }) => {
 
 			<Fullscreen img='/portfolio/floatplane/2.jpg' />
 
-			<NextProject title='LTT Labs' role='UI/UX' link='/ltt' isVideo={true} image='/portfolio/gidicruise.mp4' />
+			<NextProject title='LTT Labs' role='UI/UX' link='ltt-labs' isVideo={false} image='/portfolio/labs.jpg' />
 		</div>
 	);
 };
