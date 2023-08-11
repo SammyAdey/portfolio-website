@@ -6,7 +6,7 @@ const Footer = ({ section, isProjects }) => {
 	const [hover, setHover] = useState(false);
 
 	return (
-		<div className='flex w-full h-[60px] justify-between items-center fixed bottom-0  px-[25px] lg:px-[50px] pb-[10px] lg:pb-[50px] z-[9000]'>
+		<div className='flex w-full h-[60px] justify-center lg:justify-between items-center fixed bottom-0  px-[25px] lg:px-[50px] pb-[10px] lg:pb-[50px] z-[9000]'>
 			<div
 				onMouseEnter={() => setHover(true)}
 				onMouseLeave={() => setHover(false)}

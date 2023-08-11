@@ -98,7 +98,7 @@ const Cursor = ({ links, mouseHoverColor, mouseColor }) => {
 	return (
 		<>
 			<motion.div
-				className='bg-white fixed w-[16px] h-[16px] top-0 left-0 z-[10000] flex justify-center items-center pointer-events-none rounded-[100px] mix-blend-difference'
+				className='bg-white fixed w-[16px] h-[16px] top-0 left-0 z-[10000] hidden lg:flex justify-center items-center pointer-events-none rounded-[100px] mix-blend-difference'
 				variants={mouseHover ? hoverVariants : variants}
 				animate='default'
 				transition={{ ease: "easeOut", duration: 0.3 }}
