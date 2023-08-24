@@ -16,7 +16,7 @@ const Navbar = ({ setLinks, isProjects }) => {
 			>
 				<Link href='/'>
 					<h1 id='link' className={'text-[20px] font-["helvetica-extended"] font-[500] '}>
-						S <span className='text-[27px] ml-[-8px] font-["shallota"] '>A </span>
+						S <span className='text-[24px] lg:text-[26px] ml-[-8px] font-["shallota"] '>A </span>
 					</h1>
 				</Link>
 

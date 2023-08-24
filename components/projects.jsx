@@ -46,7 +46,7 @@ const Project = ({ projectRef }) => {
 					/>
 				</Link>
 				<div className='lg:hidden flex flex-col gap-0 items-center'>
-					<h1 className='text-[48px] font-["shallota"] mt-2 mb-[-25px]'>GidiCruise</h1>
+					<h1 className='text-[36px] font-["shallota"] mt-2 mb-[-10px]'>GidiCruise</h1>
 					<p className='text-[14px] font-["helvetica-extended"] font-[400] '>graphic design</p>
 				</div>
 			</div>
@@ -76,7 +76,7 @@ const Project = ({ projectRef }) => {
 					/>
 				</Link>
 				<div className='lg:hidden flex flex-col gap-0 items-center'>
-					<h1 className='text-[48px] font-["shallota"] mt-2 mb-[-25px]'>Agrify</h1>
+					<h1 className='text-[36px] font-["shallota"] mt-2 mb-[-10px]'>Agrify</h1>
 					<p className='text-[14px] font-["helvetica-extended"] font-[400] '>Frontend & Blockchain Development</p>
 				</div>
 			</div>
@@ -107,7 +107,7 @@ const Project = ({ projectRef }) => {
 					/>
 				</Link>
 				<div className='lg:hidden flex flex-col gap-0 items-center'>
-					<h1 className='text-[48px] font-["shallota"] mt-2 mb-[-25px]'>Ml Percussion</h1>
+					<h1 className='text-[36px] font-["shallota"] mt-2 mb-[-10px]'>Ml Percussion</h1>
 					<p className='text-[14px] font-["helvetica-extended"] font-[400] '>Design & Development</p>
 				</div>
 			</div>
@@ -137,7 +137,7 @@ const Project = ({ projectRef }) => {
 					/>
 				</Link>
 				<div className='lg:hidden flex flex-col gap-0 items-center'>
-					<h1 className='text-[48px] font-["shallota"] mt-2 mb-[-25px]'>Rivet App</h1>
+					<h1 className='text-[36px] font-["shallota"] mt-2 mb-[-10px]'>Rivet App</h1>
 					<p className='text-[14px] font-["helvetica-extended"] font-[400] '>UI/UX Design</p>
 				</div>
 			</div>
