@@ -97,51 +97,53 @@ const Menu = ({ setLinks, menuToggle, setMenuToggle }) => {
 			transition={{ ease: "easeOut", duration: 1 }}
 			className='flex flex-col w-screen h-screen justify-center bg-[#070708] items-center fixed top-0 left-0 pb-8 px-[50px] z-[100]'
 		>
-			<div className='flex h-[80px] overflow-hidden items-center'>
+			<div className='flex flex-col justify-center lg:flex-row lg:h-[80px] overflow-hidden items-center'>
 				<Link href='/'>
 					<h1
 						id='link'
 						onMouseEnter={() => setHover("home")}
 						onMouseLeave={() => setHover(" ")}
 						onClick={() => setMenuToggle(false)}
-						className={'text-[60px] font-["helvetica-extended"] font-[500] ' + home}
+						className={'text-[50px] lg:text-[60px] font-["helvetica-extended"] font-[500] ' + home}
 					>
 						Home
 					</h1>
 				</Link>
-				<span className={'text-[60px] font-["helvetica-extended"] ml-[20px] ' + home}> //</span>
+				<span className={'hidden lg:block text-[60px] font-["helvetica-extended"] ml-[20px] ' + home}> //</span>
 				<Link href='/about'>
 					<h1
 						id='link'
 						onMouseEnter={() => setHover("about")}
 						onMouseLeave={() => setHover(" ")}
 						onClick={() => setMenuToggle(false)}
-						className={'text-[80px] ml-[20px] mb-[-30px] font-["shallota"] ' + about}
+						className={'text-[70px] lg:text-[80px] lg:ml-[20px] mb-[-30px] font-["shallota"] ' + about}
 					>
 						About Me
 					</h1>
 				</Link>
 			</div>
-			<div className='flex h-[80px] mt-[20px] overflow-hidden items-center'>
+			<div className='flex flex-col lg:flex-row lg:h-[80px] mt-[20px] overflow-hidden items-center'>
 				<Link href='/projects'>
 					<h1
 						id='link'
 						onMouseEnter={() => setHover("projects")}
 						onMouseLeave={() => setHover(" ")}
 						onClick={() => setMenuToggle(false)}
-						className={'text-[80px] font-["shallota"] ' + projects}
+						className={'text-[50px] lg:text-[80px] font-["helvetica-extended"] lg:font-["shallota"] font-[500] lg:font-[400] ' + projects}
 					>
 						Projects
 					</h1>
 				</Link>
-				<span className={'text-[60px] font-["helvetica-extended"] ml-[20px] mt-[-25px] ' + contact}> //</span>
+				<span className={'hidden lg:block text-[60px] font-["helvetica-extended"] ml-[20px] mt-[-25px] ' + contact}> //</span>
 				<Link href='/contact'>
 					<h1
 						id='link'
 						onMouseEnter={() => setHover("contact")}
 						onMouseLeave={() => setHover(" ")}
 						onClick={() => setMenuToggle(false)}
-						className={'text-[60px] ml-[20px] mt-[-25px] font-["helvetica-extended"] font-[500] ' + contact}
+						className={
+							'text-[70px] lg:text-[60px] lg:ml-[20px] lg:mt-[-25px] font-["shallota"] lg:font-["helvetica-extended"] lg:font-[500] ' + contact
+						}
 					>
 						Contact
 					</h1>

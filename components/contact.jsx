@@ -37,23 +37,26 @@ const Contact = ({ contactRef }) => {
 					</div>
 					<div className='w-[500px] flex flex-col gap-0 lg:gap-3'>
 						{/* ------------------------------------------------------- */}
-						<div
+						<Link
 							id='link'
+							href='https://github.com/SammyAdey'
+							target='_blank'
 							onMouseEnter={() => setHover("instagram")}
 							onMouseLeave={() => setHover("")}
 							className='flex items-center font-["helvetica-extended"] cursor-pointer gap-1 w-[170px] justify-between'
 						>
 							<div className='h-[40px]'>
-								<h1 className='text-[20px] lg:text-[24px] font-[400] '>Instagram</h1>
+								<h1 className='text-[20px] lg:text-[24px] font-[400] '>Github</h1>
 							</div>
 							<motion.div variants={hover === "instagram" ? hoverVariant : variant} animate='default' transition={{ ease: "easeOut", duration: 0.3 }}>
 								<FiArrowUpRight size={22} className='mt-[-5px]' />
 							</motion.div>
-						</div>
+						</Link>
 						{/* ------------------------------------------------------- */}
 						<Link
 							id='link'
 							href='https://www.linkedin.com/in/samuel-adeyemi-7960a911a/'
+							target='_blank'
 							onMouseEnter={() => setHover("twitter")}
 							onMouseLeave={() => setHover("")}
 							className='flex items-center font-["helvetica-extended"] cursor-pointer gap-1 w-[170px] justify-between'
@@ -83,6 +86,7 @@ const Contact = ({ contactRef }) => {
 						<Link
 							id='link'
 							href='https://www.linkedin.com/in/samuel-adeyemi-7960a911a/'
+							target='_blank'
 							onMouseEnter={() => setHover("linkedin")}
 							onMouseLeave={() => setHover("")}
 							className='flex items-center font-["helvetica-extended"] cursor-pointer gap-1 w-[170px] justify-between'

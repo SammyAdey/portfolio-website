@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Link from "next/link";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const ContactPage = ({ setLinks, setSection }) => {
@@ -43,8 +43,10 @@ const ContactPage = ({ setLinks, setSection }) => {
 					</div>
 					<div className='w-[500px] flex flex-col gap-3'>
 						{/* ------------------------------------------------------- */}
-						<div
+						<Link
 							id='link'
+							href='https://github.com/SammyAdey'
+							target='_blank'
 							onMouseEnter={() => setHover("instagram")}
 							onMouseLeave={() => setHover("")}
 							className='flex items-center font-["helvetica-extended"] cursor-pointer gap-1 w-[170px] justify-between'
@@ -55,7 +57,7 @@ const ContactPage = ({ setLinks, setSection }) => {
 							<motion.div variants={hover === "instagram" ? hoverVariant : variant} animate='default' transition={{ ease: "easeOut", duration: 0.3 }}>
 								<FiArrowUpRight size={22} className='mt-[-5px]' />
 							</motion.div>
-						</div>
+						</Link>
 						{/* ------------------------------------------------------- */}
 						<div
 							id='link'
@@ -85,8 +87,10 @@ const ContactPage = ({ setLinks, setSection }) => {
 							</motion.div>
 						</div>
 						{/* ------------------------------------------------------- */}
-						<div
+						<Link
 							id='link'
+							href='https://www.linkedin.com/in/samuel-adeyemi-7960a911a/'
+							target='_blank'
 							onMouseEnter={() => setHover("linkedin")}
 							onMouseLeave={() => setHover("")}
 							className='flex items-center font-["helvetica-extended"] cursor-pointer gap-1 w-[170px] justify-between'
@@ -97,7 +101,7 @@ const ContactPage = ({ setLinks, setSection }) => {
 							<motion.div variants={hover === "linkedin" ? hoverVariant : variant} animate='default' transition={{ ease: "easeOut", duration: 0.3 }}>
 								<FiArrowUpRight size={22} className='mt-[-5px]' />
 							</motion.div>
-						</div>
+						</Link>
 					</div>
 				</div>
 			</div>

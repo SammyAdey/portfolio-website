@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import ProjectCard from "/components/projectCard";
 
 const ProjectsPage = ({ setLinks, setSection }) => {
@@ -25,9 +24,9 @@ const ProjectsPage = ({ setLinks, setSection }) => {
 		setSection("");
 	}, []);
 	return (
-		<div className='flex flex-col h-screen relative z-[10] w-[100vw] m-auto py-[10rem] items-center '>
-			<h1 className=' font-["helvetica-extended"] leading-[40px] text-[70px] font-[500] my-20 pb-10'>
-				MY <span className='w-[70vw] font-["shallota"] leading-[64px] text-[104px]'>projects</span>
+		<div className='flex flex-col h-screen relative z-[10] w-[100vw] m-auto lg:py-[10rem] items-center '>
+			<h1 className=' font-["helvetica-extended"] leading-[40px] text-[40px] lg:text-[70px] font-[500] my-20 pb-10'>
+				MY <span className='w-[70vw] font-["shallota"] leading-[64px] text-[60px] lg:text-[104px]'>projects</span>
 			</h1>
 
 			<div className='bg-white rounded-[30px] fixed bottom-16 z-[1000] p-1'>
@@ -78,7 +77,7 @@ const ProjectsPage = ({ setLinks, setSection }) => {
 				</div>
 			</div>
 
-			<div className='mx-[10px] pb-[200px] grid grid-cols-2 gap-4 justify-center items-center'>
+			<div className='lg:mx-[10px] pb-[200px] lg:grid lg:grid-cols-2 gap-4 justify-center items-center'>
 				<ProjectCard title='Gidicruise' role='Graphic Design' link='/projects/gidicruise' isVideo={true} image='/portfolio/gidicruise.mp4' />
 				<ProjectCard title='Agrify' role='Frontend & Blockchain Development' link='/projects/agrify' isVideo={false} image='/portfolio/agrify.jpeg' />
 				<ProjectCard

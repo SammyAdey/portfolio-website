@@ -13,7 +13,7 @@ const AboutPage = ({ setLinks, setSection }) => {
 	}, []);
 
 	return (
-		<div className='flex flex-col h-screen relative z-[10] w-[70vw] m-auto py-[10rem] items-center '>
+		<div className='flex flex-col h-screen relative z-[10] lg:w-[70vw] m-auto py-[10rem] items-center '>
 			<h1 className=' font-["helvetica-extended"] leading-[40px] text-[70px] font-[500] my-20 pb-10'>
 				ABOUT <span className='w-[70vw] font-["shallota"] leading-[64px] text-[120px]'>me</span>
 			</h1>
