@@ -107,7 +107,10 @@ const Cursor = ({ links, mouseHoverColor, mouseColor }) => {
 			</motion.div>
 			<motion.div
 				id='bg-circle'
-				className={"fixed w-[300px] h-[300px] top-0 left-0 z-[2] pointer-events-none rounded-[50%] " + (mouseHover ? mouseHoverColor : mouseColor)}
+				className={
+					"hidden lg:block fixed w-[300px] h-[300px] top-0 left-0 z-[2] pointer-events-none rounded-[50%] " +
+					(mouseHover ? mouseHoverColor : mouseColor)
+				}
 				initial={{ rotate: 0, skew: 1 }}
 				animate={{ rotate: 360, skew: 15 }}
 				transition={{ ease: "easeOut", duration: 20, repeat: Infinity }}

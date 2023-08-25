@@ -35,7 +35,9 @@ export default function App({ Component, pageProps }) {
 			<Navbar isProjects={isProjects} setLinks={setLinks} />
 			<AnimatePresence>
 				<Component setSection={setSection} setIsProjects={setIsProjects} setLinks={setLinks} key={router.pathname} {...pageProps} />
-				<div className={"flex w-screen h-screen fixed top-0 left-0 z-[3] " + (isProjects ? "backdrop-blur-[130px]" : "backdrop-blur-[200px]")}></div>
+				<div
+					className={"hidden lg:flex w-screen h-screen fixed top-0 left-0 z-[3] " + (isProjects ? "backdrop-blur-[130px]" : "backdrop-blur-[200px]")}
+				></div>
 				{isProjects ? <div className='flex w-screen h-screen fixed  top-0 left-0 bg-white'></div> : ""}
 			</AnimatePresence>
 			<Footer section={section} isProjects={isProjects} />
