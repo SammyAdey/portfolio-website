@@ -18,7 +18,7 @@ const InfoSection = ({ company, role, completed, url }) => {
 
 	return (
 		<div className='w-[70vw]'>
-			<table className='table-fixed w-full'>
+			<table className='hidden table-fixed w-full'>
 				<thead>
 					<tr className='h-[30px] '></tr>
 				</thead>
@@ -51,6 +51,26 @@ const InfoSection = ({ company, role, completed, url }) => {
 					</tr>
 				</tbody>
 			</table>
+			<div className='flex justify-center text-black lg:hidden'>
+				<div>
+					<div className='flex justify-center'>
+						<p className='font-bold'>Company: </p>
+						<p>{" " + company}</p>
+					</div>
+					<div className='justify-center flex'>
+						<p className='font-bold'>Role: </p>
+						<p>{" " + role}</p>
+					</div>
+					<div className='justify-center flex'>
+						<p className='font-bold'>Completed: </p>
+						<p>{" " + completed}</p>
+					</div>
+					<div className='justify-center flex'>
+						<p className='font-bold'>Url: </p>
+						<p>{" " + url}</p>
+					</div>
+				</div>
+			</div>
 			{/* <div className='w-[400px] h-[300px] bg-gradient-to-r from-orange-500 to-rose-700'></div> */}
 		</div>
 	);

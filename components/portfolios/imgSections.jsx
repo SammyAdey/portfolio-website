@@ -7,13 +7,13 @@ export const Hero = ({ img }) => {
 	let y = useTransform(scrollYProgress, [0, 1], ["0%", "-20%"]);
 
 	return (
-		<div ref={ref} className='w-full grid grid-cols-1 mt-[150px] h-[700px] bg-black '>
+		<div ref={ref} className='w-full grid grid-cols-1 mt-[80px] lg:mt-[150px] h-[300px] lg:h-[700px] bg-black '>
 			<div className='w-full overflow-hidden'>
 				<motion.img
 					style={{ y: y }}
 					animate='default'
 					// transition={{ ease: "easeInOut", duration: 3 }}
-					className='object-cover w-full'
+					className='object-cover h-[400px] lg:h-auto lg:w-full'
 					alt='my profile'
 					src={img}
 					fill

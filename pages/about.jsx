@@ -94,7 +94,7 @@ const AboutPage = ({ setLinks, setSection }) => {
 					<p className='mt-[-20px] text-[#B9B9B9]'>my Obsessions</p>
 				</div>
 				<div className='w-[70%]'>
-					<p className='text-[28px] text-center lg:text-left text-[#B9B9B9]'>
+					<p className='text-[24px] lg:text-[28px] text-center lg:text-left text-[#B9B9B9]'>
 						In addition to my design skills, i am also a proficient software engineer. I have a deep understanding of various programming languages,
 						frameworks, and platforms, which enables them to develop custom software solutions that meet clients' specific needs. I also have a keen
 						interest in creating machine learning models for analysing big data.
