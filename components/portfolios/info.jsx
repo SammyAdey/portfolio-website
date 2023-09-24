@@ -18,7 +18,7 @@ const InfoSection = ({ company, role, completed, url }) => {
 
 	return (
 		<div className='w-[70vw]'>
-			<table className='hidden table-fixed w-full'>
+			<table className='hidden lg:table table-fixed w-full'>
 				<thead>
 					<tr className='h-[30px] '></tr>
 				</thead>

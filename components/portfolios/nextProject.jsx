@@ -18,32 +18,9 @@ const NextProject = ({ title, role, link, isVideo, image }) => {
 		},
 	};
 
-	// useEffect(() => {
-	// 	const menuObserver = new IntersectionObserver(
-	// 		([menu]) => {
-	// 			if (menu.isIntersecting) {
-	// 				setIsProjects(false);
-	// 			} else {
-	// 				setIsProjects(true);
-	// 			}
-	// 		},
-	// 		{ threshold: 1 } // Adjust the threshold value as needed
-	// 	);
-
-	// 	if (menuRef.current) {
-	// 		menuObserver.observe(menuRef.current);
-	// 	}
-
-	// 	return () => {
-	// 		if (menuRef.current) {
-	// 			menuObserver.unobserve(menuRef.current);
-	// 		}
-	// 	};
-	// }, []);
-
 	return (
 		<div ref={menuRef} className='flex justify-center h-screen bg-black w-screen '>
-			<div className='flex h-screen flex-col w-[70vw] items-center justify-center'>
+			<div className='flex h-screen flex-col w-[90vw] lg:w-[70vw] items-center justify-center'>
 				<h1 className='text-white font-["helvetica-extended"] text-[40px] text-black font-[500] mb-10 mt-[-40px]'>
 					Next <span className='font-["shallota"] text-[55px]'>Project</span>
 				</h1>
