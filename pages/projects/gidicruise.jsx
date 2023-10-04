@@ -21,7 +21,12 @@ const AboutPage = ({ setLinks, setSection }) => {
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[7rem] lg:py-[10rem] items-center '>
-			<h1 className='font-["shallota"] leading-[40px] text-[60px] lg:text-[120px] text-black font-[500] pt-0 lg:pt-20 pb-10 lg:pb-20'>GidiCruise</h1>
+			<h1 className='font-["shallota"] leading-[40px] text-[60px] lg:text-[120px] text-black font-[500] pt-0 lg:pt-20 pb-10 lg:pb-20'>
+				GidiCruise
+				<span className='bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500'>
+					<span className='bg-gradient-to-r from-rose-300 via-fuchsia-400 to-indigo-400'></span>
+				</span>
+			</h1>
 			<InfoSection company='GidiCruise' role='Design + Development' completed='On Going' url='www.gidicruise.com' />
 			<Hero img='/portfolio/gidicruise/Hero.jpg' />
 

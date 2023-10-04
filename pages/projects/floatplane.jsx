@@ -21,7 +21,12 @@ const AboutPage = ({ setLinks, setSection, setIsProjects }) => {
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[7rem] lg:py-[10rem] items-center '>
-			<h1 className='font-["shallota"] leading-[40px] text-[60px] lg:text-[120px] text-black font-[500] pt-0 lg:pt-20 pb-10 lg:pb-20'>Floatplane</h1>
+			<h1 className='font-["shallota"] leading-[40px] text-[60px] lg:text-[120px] text-black font-[500] pt-0 lg:pt-20 pb-10 lg:pb-20'>
+				Floatplane
+				<span className='bg-gradient-to-r from-sky-400 to-blue-500'>
+					<span className='bg-gradient-to-r from-sky-600 to-blue-700'></span>
+				</span>
+			</h1>
 			<InfoSection company='Floatplane Inc' role='Design + Development' completed='On Going' url='www.floatplane.com' />
 			<Hero img='/portfolio/floatplane/1.jpg' />
 

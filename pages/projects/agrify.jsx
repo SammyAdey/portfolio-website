@@ -43,7 +43,12 @@ const MlPercussions = ({ setLinks, setSection, setIsProjects }) => {
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[7rem] lg:py-[10rem] items-center '>
-			<h1 className='font-["shallota"] leading-[40px] text-[60px] lg:text-[120px] text-black font-[500] lg:pt-20 pb-20'>Agrify</h1>
+			<h1 className='font-["shallota"] leading-[40px] text-[60px] lg:text-[120px] text-black font-[500] lg:pt-20 pb-20'>
+				Agrify{" "}
+				<span className='bg-gradient-to-r from-green-500 to-green-700'>
+					<span className='bg-gradient-to-r from-green-400 to-green-600'></span>
+				</span>
+			</h1>
 			<InfoSection company='GidiCruise' role='Design + Development' completed='On Going' url='www.agrifyafrica.xyz' />
 			<Hero img='/portfolio/agrify/hero.jpg' />
 

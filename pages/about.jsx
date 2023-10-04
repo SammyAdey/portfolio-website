@@ -36,10 +36,10 @@ const AboutPage = ({ setLinks, setSection }) => {
 					<h1 className='font-["shallota"] text-[50px]'>development</h1>
 					<p className='mt-[-20px] text-[#B9B9B9]'>experience</p>
 				</div>
-				<div className='w-[80%] lg:w-[70%]'>
+				<div className='w-[80%] md:w-[60%] xl:w-[70%]'>
 					<table className='table-fixed w-full'>
 						<thead>
-							<tr className='border-b-2 border-[#9A9A9A] h-[30px] '></tr>
+							<tr className='border-b-2 border-[#9A9A9A] '></tr>
 						</thead>
 						<tbody>
 							{CV.map((job, i) => (

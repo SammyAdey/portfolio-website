@@ -21,7 +21,12 @@ const AboutPage = ({ setLinks, setSection, setIsProjects }) => {
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[7rem] lg:py-[10rem] items-center '>
-			<h1 className='font-["shallota"] leading-[40px] text-[60px] lg:text-[120px] text-black font-[500] pt-0 lg:pt-20 pb-10 lg:pb-20'>LTT LABS</h1>
+			<h1 className='font-["shallota"] leading-[40px] text-[60px] lg:text-[120px] text-black font-[500] pt-0 lg:pt-20 pb-10 lg:pb-20'>
+				LTT LABS{" "}
+				<span className='w-[25px] h-[25px] bg-gradient-to-r from-orange-600 to-pink-700'>
+					<span className='bg-gradient-to-r from-orange-700 to-rose-700'></span>
+				</span>
+			</h1>
 			<InfoSection company='Linus Tech Tips' role='Design + Development' completed='On Going' url='coming soon' />
 			<Hero img='/portfolio/lttlabs/hero.jpeg' />
 

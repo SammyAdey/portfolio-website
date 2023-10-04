@@ -11,12 +11,11 @@ const Cursor = ({ links, mouseHoverColor, mouseColor }) => {
 	const router = useRouter();
 	const [mouseHover, setMouseHover] = useState(false);
 	const [portfolioHover, setPortfolioHover] = useState(false);
-	// const [linkz, setLinks] = useState();
-	// var links = null;
 
 	useEffect(() => {
 		links = document.querySelectorAll("#link");
-	}, [mouseHover, router.asPath]);
+		console.log("links");
+	});
 
 	useEffect(() => {
 		const portfolios = document.querySelectorAll("#portfolio");
