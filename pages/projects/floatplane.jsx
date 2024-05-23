@@ -17,7 +17,7 @@ const AboutPage = ({ setLinks, setSection, setIsProjects }) => {
 	}, []);
 
 	const introText =
-		" In addition to my design skills, i am also a proficient software engineer. I have a deep understanding of various programming languages, frameworks, and platforms, which enables them to develop custom software solutions that meet clients specific needs. I also have a keen interest in creating machine learning models for analysing big data. ";
+		" At Floatplane, I was entrusted with the complete overhaul of the user interface for both the landing page and the app platform. My objective was to revitalize the visual design and enhance the overall user experience. For the landing page, I crafted a modern, intuitive, and visually appealing layout that effectively communicated Floatplane's unique value proposition and engaged visitors from the moment they arrived. For the app platform, I redesigned the interface to be more user-friendly, streamlined, and aesthetically cohesive, ensuring a seamless and enjoyable experience for users. This comprehensive UI transformation involved close collaboration with stakeholders, iterative design processes, and meticulous attention to detail to align the new design with Floatplane's brand identity and user needs. ";
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[7rem] lg:py-[10rem] items-center '>
@@ -27,7 +27,7 @@ const AboutPage = ({ setLinks, setSection, setIsProjects }) => {
 					<span className='bg-gradient-to-r from-sky-600 to-blue-700'></span>
 				</span>
 			</h1>
-			<InfoSection company='Floatplane Inc' role='Design + Development' completed='On Going' url='www.floatplane.com' />
+			<InfoSection company='Floatplane Inc' role='Design + Development' completed='Apr 2024' url='www.floatplane.com' />
 			<Hero img='/portfolio/floatplane/1.jpg' />
 
 			<hr className='mt-[150px] lg:mt-[250px]' />

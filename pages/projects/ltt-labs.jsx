@@ -17,7 +17,7 @@ const AboutPage = ({ setLinks, setSection, setIsProjects }) => {
 	}, []);
 
 	const introText =
-		" In addition to my design skills, i am also a proficient software engineer. I have a deep understanding of various programming languages, frameworks, and platforms, which enables them to develop custom software solutions that meet clients specific needs. I also have a keen interest in creating machine learning models for analysing big data. ";
+		" At LTT Labs, I was tasked with designing an innovative product comparison website. My goal was to create a modern, intuitive platform that effectively presents complex graphs and data in an easily digestible manner, moving away from the outdated designs commonly seen in this space. This involved developing a clean, user-friendly interface that seamlessly integrates visual data representations, ensuring users can effortlessly compare products and understand detailed information. By focusing on clarity, usability, and visual appeal, I helped LTT Labs deliver a cutting-edge tool that enhances the user experience and sets a new standard for product comparison websites. ";
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[7rem] lg:py-[10rem] items-center '>
@@ -27,7 +27,7 @@ const AboutPage = ({ setLinks, setSection, setIsProjects }) => {
 					<span className='bg-gradient-to-r from-orange-700 to-rose-700'></span>
 				</span>
 			</h1>
-			<InfoSection company='Linus Tech Tips' role='Design + Development' completed='On Going' url='coming soon' />
+			<InfoSection company='Linus Tech Tips' role='Design + Development' completed='On Going' url='www.lttlabs.com' />
 			<Hero img='/portfolio/lttlabs/hero.jpeg' />
 
 			<hr className='mt-[100px] lg:mt-[250px]' />

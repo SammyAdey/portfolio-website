@@ -16,12 +16,12 @@ const MlPercussions = ({ setLinks, setSection }) => {
 	}, []);
 
 	const introText =
-		" In addition to my design skills, i am also a proficient software engineer. I have a deep understanding of various programming languages, frameworks, and platforms, which enables them to develop custom software solutions that meet clients specific needs. I also have a keen interest in creating machine learning models for analysing big data. ";
+		" I collaborated with ML Percussion to design and build a stunning e-commerce website that authentically reflects their Nigerian heritage. My role involved creating a visually appealing and user-friendly online store that showcases ML Percussion's unique percussion instruments. The design process focused on incorporating elements of Nigerian culture and aesthetics, ensuring that the website not only appeals to a global audience but also resonates deeply with local customers. By blending traditional Nigerian motifs with modern design principles, I helped ML Percussion establish a strong online presence that highlights their craftsmanship and cultural roots. The result is an engaging and immersive shopping experience that celebrates the rich musical heritage of Nigeria. ";
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[7rem] lg:py-[10rem] items-center '>
 			<h1 className='font-["shallota"] leading-[40px] text-[60px] lg:text-[120px] text-black font-[500] pt-20 pb-20'>Ml Percussions</h1>
-			<InfoSection company='Ml Percussions' role='Design + Development' completed='On Going' url='www.mlpercussions.com' />
+			<InfoSection company='Ml Percussions' role='Design + Development' completed='Feb 2022' url='www.mlpercussions.com' />
 			<Hero img='/portfolio/mlpercussions/hero.jpg' />
 
 			<hr className='mt-[250px]' />

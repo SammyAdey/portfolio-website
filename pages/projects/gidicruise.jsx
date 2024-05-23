@@ -17,7 +17,7 @@ const AboutPage = ({ setLinks, setSection }) => {
 	}, []);
 
 	const introText =
-		" In addition to my design skills, i am also a proficient software engineer. I have a deep understanding of various programming languages, frameworks, and platforms, which enables them to develop custom software solutions that meet clients specific needs. I also have a keen interest in creating machine learning models for analysing big data. ";
+		" Every year, my friends and I host an end-of-year party called Gidicruise, which attracts over 2,000 attendees. This event allows me to flex my creative muscles as I am responsible for all visuals, from branding and promotional videos to the website, social media graphics, banners, and billboard ads. It also serves as an excellent opportunity to showcase my project management skills through event planning and resource management. ";
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[7rem] lg:py-[10rem] items-center '>
@@ -27,7 +27,7 @@ const AboutPage = ({ setLinks, setSection }) => {
 					<span className='bg-gradient-to-r from-rose-300 via-fuchsia-400 to-indigo-400'></span>
 				</span>
 			</h1>
-			<InfoSection company='GidiCruise' role='Design + Development' completed='On Going' url='www.gidicruise.com' />
+			<InfoSection company='GidiCruise' role='Design + Development' completed='Dec 2023' url='www.gidicruise.com' />
 			<Hero img='/portfolio/gidicruise/Hero.jpg' />
 
 			<hr className='mt-[100px] lg:mt-[250px]' />

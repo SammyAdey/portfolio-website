@@ -39,7 +39,7 @@ const MlPercussions = ({ setLinks, setSection, setIsProjects }) => {
 	}, []);
 
 	const introText =
-		" In addition to my design skills, i am also a proficient software engineer. I have a deep understanding of various programming languages, frameworks, and platforms, which enables them to develop custom software solutions that meet clients specific needs. I also have a keen interest in creating machine learning models for analysing big data. ";
+		" Agrify is an innovative platform designed to support farmers in adopting regenerative farming techniques and selling their produce as NFTs. At Agrify, I  built the platform's landing page and blockchain-based marketplace. The landing page was designed to be engaging and informative, effectively communicating Agrify's mission and attracting both farmers and buyers. The marketplace utilized cutting-edge blockchain technology to facilitate secure and transparent transactions, allowing farmers to tokenize their produce and sell it as unique digital assets. My work involved creating a seamless user experience, integrating blockchain functionality, and ensuring the platform's overall aesthetic aligned with Agrify's brand vision. ";
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[7rem] lg:py-[10rem] items-center '>
@@ -49,7 +49,7 @@ const MlPercussions = ({ setLinks, setSection, setIsProjects }) => {
 					<span className='bg-gradient-to-r from-green-400 to-green-600'></span>
 				</span>
 			</h1>
-			<InfoSection company='GidiCruise' role='Design + Development' completed='On Going' url='www.agrifyafrica.xyz' />
+			<InfoSection company='Agrify' role='Development' completed='Feb 2024' url='www.agrifyafrica.xyz' />
 			<Hero img='/portfolio/agrify/hero.jpg' />
 
 			<hr className='mt-[150px] lg:mt-[250px]' />

@@ -16,12 +16,15 @@ const MlPercussions = ({ setLinks, setSection }) => {
 	}, []);
 
 	const introText =
-		" In addition to my design skills, i am also a proficient software engineer. I have a deep understanding of various programming languages, frameworks, and platforms, which enables them to develop custom software solutions that meet clients specific needs. I also have a keen interest in creating machine learning models for analysing big data. ";
+		"Rivet is a tech startup dedicated to helping creators expand their audiences. My role involved a comprehensive redesign of their platform, alongside designing and conceptualizing new features. The main challenge was to transform complex functionalities, often involving intricate steps, into a user-friendly and intuitive interface. For this, i created designs that enhanced user experience and ensure seamless interaction with the platform's advanced features. ";
+
+	const introText2 =
+		"Rivet is a tech startup dedicated to helping creators expand their audiences. My role involved a comprehensive redesign of their platform, alongside designing and conceptualizing new features. Being part of a startup, I often wore multiple hats. I created graphics that served as templates for the output of new features and developed promotional videos for social media to promote these features. The main challenge was to transform complex functionalities, often involving intricate steps, into a user-friendly and intuitive interface. Through this project, I aimed to enhance user experience and ensure seamless interaction with the platform's advanced features.";
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[10rem] items-center '>
 			<h1 className='font-["shallota"] leading-[40px] text-[60px] lg:text-[120px] text-black font-[500] pt-20 pb-20'>Rivet App</h1>
-			<InfoSection company='Rivet Co' role='UI/UX' completed='On Going' url='rivet.app' />
+			<InfoSection company='Rivet Co' role='UI/UX' completed='Jan 2023' url='rivet.app' />
 			<Hero img='/portfolio/rivet/hero.jpg' />
 
 			<hr className='mt-[250px]' />
@@ -31,7 +34,7 @@ const MlPercussions = ({ setLinks, setSection }) => {
 			<OneColumn img='/portfolio/rivet/fw1.jpg' />
 			<TwoColumn img1='/portfolio/rivet/3.jpg' img2='/portfolio/rivet/4.jpg' />
 			<hr className='mt-[250px]' />
-			<IntroText text={introText} />
+			<IntroText text={introText2} />
 			<hr className='mt-[250px]' />
 
 			{/* <OneColumn img='/portfolio/rivet/fw2.jpg' /> */}
