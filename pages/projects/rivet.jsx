@@ -19,7 +19,7 @@ const MlPercussions = ({ setLinks, setSection }) => {
 		"Rivet is a tech startup dedicated to helping creators expand their audiences. My role involved a comprehensive redesign of their platform, alongside designing and conceptualizing new features. The main challenge was to transform complex functionalities, often involving intricate steps, into a user-friendly and intuitive interface. For this, i created designs that enhanced user experience and ensure seamless interaction with the platform's advanced features. ";
 
 	const introText2 =
-		"Rivet is a tech startup dedicated to helping creators expand their audiences. My role involved a comprehensive redesign of their platform, alongside designing and conceptualizing new features. Being part of a startup, I often wore multiple hats. I created graphics that served as templates for the output of new features and developed promotional videos for social media to promote these features. The main challenge was to transform complex functionalities, often involving intricate steps, into a user-friendly and intuitive interface. Through this project, I aimed to enhance user experience and ensure seamless interaction with the platform's advanced features.";
+		"Being part of a startup, I often wore multiple hats. I created graphics that served as templates for the output of new features and developed promotional videos for social media to promote these features. ";
 
 	return (
 		<div className='flex flex-col h-screen w-screen relative z-[10] m-auto py-[10rem] items-center '>
