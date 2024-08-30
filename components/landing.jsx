@@ -46,15 +46,15 @@ export default function Landing({ landingRef, setSection }) {
 		<div ref={landingRef} className='flex shrink-0 justify-center items-center relative z-[10] w-screen h-screen'>
 			<div id='textred' className='flex flex-col lg:flex-row lg:justify-center absolute z-[30] text-truered items-center mix-blend-screen'>
 				<h1 className='text-[46px] lg:text-[64px] font-["helvetica-extended"] font-[600] mr-4'>CREATIVE</h1>
-				<h1 className='text-[80px] lg:text-[100px] font-["shallota"] font-[300] mb-[-24px] mt-[-25px] lg:mt-[0px]'>designer</h1>
+				<h1 className='text-[80px] lg:text-[100px] font-["shallota"] font-[300] mb-[-24px] mt-[-25px] lg:mt-[0px]'>developer</h1>
 			</div>
 			<div className='flex flex-col lg:flex-row lg:justify-center absolute text-truegreen mft-[-10px] items-center mix-blend-screen'>
 				<h1 className='text-[46px] lg:text-[64px] font-["helvetica-extended"] font-[600] mr-4'>CREATIVE</h1>
-				<h1 className='text-[80px] lg:text-[100px] font-["shallota"] font-[300] mb-[-24px] mt-[-25px] lg:mt-[0px]'>designer</h1>
+				<h1 className='text-[80px] lg:text-[100px] font-["shallota"] font-[300] mb-[-24px] mt-[-25px] lg:mt-[0px]'>developer</h1>
 			</div>
 			<div id='textblue' className='flex flex-col lg:flex-row lg:justify-center absolute text-trueblue items-center mix-blend-screen'>
 				<h1 className='text-[46px] lg:text-[64px] font-["helvetica-extended"] font-[600] mr-4 '>CREATIVE</h1>
-				<h1 className='text-[80px] lg:text-[100px] font-["shallota"] font-[300] mb-[-24px] mt-[-25px] lg:mt-[0px]'>designer</h1>
+				<h1 className='text-[80px] lg:text-[100px] font-["shallota"] font-[300] mb-[-24px] mt-[-25px] lg:mt-[0px]'>developer</h1>
 			</div>
 		</div>
 	);
