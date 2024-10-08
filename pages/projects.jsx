@@ -66,18 +66,24 @@ const ProjectsPage = ({ setLinks, setSection }) => {
 			</div>
 
 			<div className='lg:mx-[10px] pb-[200px] grid lg:grid-cols-2 gap-12 lg:gap-4 justify-center items-center'>
-				<ProjectCard title='Gidicruise' role='Graphic Design' link='/projects/gidicruise' isVideo={true} image='/portfolio/gidicruise.mp4' />
-				<ProjectCard title='Agrify' role='Frontend & Blockchain Development' link='/projects/agrify' isVideo={false} image='/portfolio/agrify.jpeg' />
+				<ProjectCard
+					title='Gidicruise'
+					role='Graphic, UI/UX Design & Development'
+					link='/projects/gidicruise'
+					isVideo={true}
+					image='/portfolio/gidicruise.mp4'
+				/>
+				<ProjectCard title='Agrify' role='Frontend Development' link='/projects/agrify' isVideo={false} image='/portfolio/agrify.jpeg' />
 				<ProjectCard
 					title='Ml Percussion'
-					role='Design & Development'
+					role='UI/UX Design & Development'
 					link='/projects/ml-percussion'
 					isVideo={true}
 					image='/portfolio/wood-chipping.mp4'
 				/>
 				<ProjectCard title='Rivet App' role='UI/UX Design' link='/projects/rivet' isVideo={false} image='/portfolio/card.jpg' />
-				<ProjectCard title='Floatplane' role='Design & Development' link='/projects/floatplane' isVideo={false} image='/portfolio/floatplane.jpg' />
-				<ProjectCard title='Ltt Labs' role='Design & Development' link='/projects/ltt-labs' isVideo={false} image='/portfolio/labs.jpg' />
+				<ProjectCard title='Floatplane' role='UI/UX Design' link='/projects/floatplane' isVideo={false} image='/portfolio/floatplane.jpg' />
+				<ProjectCard title='Ltt Labs' role='UI/UX Design' link='/projects/ltt-labs' isVideo={false} image='/portfolio/labs.jpg' />
 			</div>
 		</div>
 	);
