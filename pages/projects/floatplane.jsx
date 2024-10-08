@@ -27,7 +27,7 @@ const AboutPage = ({ setLinks, setSection, setIsProjects }) => {
 					<span className='bg-gradient-to-r from-sky-600 to-blue-700'></span>
 				</span>
 			</h1>
-			<InfoSection company='Floatplane Inc' role='Design + Development' completed='Apr 2024' url='www.floatplane.com' />
+			<InfoSection company='Floatplane Inc' role='UI/UX' completed='Apr 2024' url='www.floatplane.com' />
 			<Hero img='/portfolio/floatplane/1.jpg' />
 
 			<hr className='mt-[150px] lg:mt-[250px]' />

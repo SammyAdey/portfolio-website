@@ -27,7 +27,7 @@ const AboutPage = ({ setLinks, setSection, setIsProjects }) => {
 					<span className='bg-gradient-to-r from-orange-700 to-rose-700'></span>
 				</span>
 			</h1>
-			<InfoSection company='Linus Tech Tips' role='Design + Development' completed='On Going' url='www.lttlabs.com' />
+			<InfoSection company='Linus Tech Tips' role='UI/UX' completed='On Going' url='www.lttlabs.com' />
 			<Hero img='/portfolio/lttlabs/hero.jpeg' />
 
 			<hr className='mt-[100px] lg:mt-[250px]' />
