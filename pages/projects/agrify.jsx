@@ -49,7 +49,7 @@ const MlPercussions = ({ setLinks, setSection, setIsProjects }) => {
 					<span className='bg-gradient-to-r from-green-400 to-green-600'></span>
 				</span>
 			</h1>
-			<InfoSection company='Agrify' role='Development' completed='Feb 2024' url='www.agrifyafrica.xyz' />
+			<InfoSection company='Agrify' role='Frontend Development' completed='Feb 2024' url='www.agrifyafrica.xyz' />
 			<Hero img='/portfolio/agrify/hero.jpg' />
 
 			<hr className='mt-[150px] lg:mt-[250px]' />

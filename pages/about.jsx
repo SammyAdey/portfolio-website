@@ -72,18 +72,19 @@ const AboutPage = ({ setLinks, setSection }) => {
 				</div>
 				<div className='w-[80%] lg:w-[70%]'>
 					<div className='text-center lg:text-left text-[24px] lg:text-[28px] text-[#B9B9B9] flex flex-col gap-3'>
-						<p>React</p>
-						<p>Next Js</p>
-						<p>Solidity</p>
-						<p>Python</p>
+						<p>Figma</p>
+						<p>Graphic Design</p>
+						<p>Motion Graphics</p>
 						<p>Photoshop</p>
 						<p>Illustrator</p>
 						<p>Indesign</p>
-						<p>Figma</p>
 						<p>After Effects</p>
+						<p>React</p>
+						<p>Next Js</p>
+						<p>Typscript</p>
+						<p>Solidity</p>
+						<p>Python</p>
 						<p>Data Analytics</p>
-						<p>Graphic Design</p>
-						<p>Motion Graphics</p>
 					</div>
 				</div>
 			</div>
