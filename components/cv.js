@@ -1,18 +1,18 @@
 const CV = [
 	{
-		date: "Oct 2022 - 2024",
-		position: "UI/UX Lead Designer",
+		date: "Jan 2020 - May 2024",
+		position: "Ai Engineer & Frontend Developer",
+		company: "Agrify",
+	},
+	{
+		date: "Oct 2022 - Feb 2024",
+		position: "Contract Developer Designer",
 		company: "Floatplane",
 	},
 	{
 		date: "Jan 2021 - Jan 2022",
-		position: "UI/UX Lead Designer",
+		position: "Contract UI/UX Designer & Developer",
 		company: "Rivet",
-	},
-	{
-		date: "Jan 2020 - Nov 2021",
-		position: "UI/UX & Frontend Developer",
-		company: "Agrify",
 	},
 	{
 		date: "Jan 2019 - Feb 2020",
