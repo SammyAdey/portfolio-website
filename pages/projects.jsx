@@ -67,6 +67,20 @@ const ProjectsPage = ({ setLinks, setSection }) => {
 
 			<div className='lg:mx-[10px] pb-[200px] grid lg:grid-cols-2 gap-12 lg:gap-4 justify-center items-center'>
 				<ProjectCard
+					title='Exhibit'
+					role='UI/UX Design & Development'
+					link='/projects/exhibit'
+					isVideo={false}
+					image='/portfolio/exhibit/header.png'
+				/>
+				<ProjectCard
+					title='Eko Miami'
+					role='Graphic, UI/UX Design & Development'
+					link='/projects/ekomiami'
+					isVideo={false}
+					image='/portfolio/ekomiami/3.png'
+				/>
+				<ProjectCard
 					title='Gidicruise'
 					role='Graphic, UI/UX Design & Development'
 					link='/projects/gidicruise'
